@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(237, 222, 216);
+}
+.container{
+    height: 600%;
+    width: 100%;
+    background-color: coral;
+}
+
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+
+.menu ul li{
+    list-style: none;
+    margin: 0px 25px;
+    font-weight: 800;
+
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+    margin: 0%;
+}
+
+.parpar{
+    text-align: center;
+    text-decoration: wavy;
+    font-size: xx-large;
+    color: blue;
+    
+}
+.iim ul{
+    display: inline-flex;
+}
+.iim ul li{
+    list-style: none;
+    margin: 0px 25px;
+    font-weight: 800;
+
+}
+
+.form-style{
+    display: flex;
+    margin: -70px 800px;
+    align-items: center;
+}
+
+.wrapper{
+    width:450px;
+    background-color: rgb(195, 158, 109);
+}

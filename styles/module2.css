@@ -1,0 +1,25 @@
+header{
+    height: 400px ;
+    color: aliceblue;
+    background-image: url('cat.png');
+    /* background-repeat: no-repeat; */
+    background-size: 400px;
+}
+h3{
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.blog{
+    margin: 40px;
+    padding: 10px;
+    background-color: aquamarine;
+    border: 10px solid saddlebrown;
+    box-shadow: 10px 10px 20px rebeccapurple;
+}
+.inci{
+    border: 2px solid red;
+    display: block;
+}
