@@ -4,9 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Audio Video</title>
+    <style>
+        .style1{
+            box-shadow: 10px 10px 10px brown;
+            color: azure;
+            background-color:violet;
+            width: 70px;
+            font-size: x-large;
+            border-radius: 10px;
+            border:2px solid blueviolet;
+            padding:10px;
+            
+        }
+        .style2{
+            box-shadow: 10px 10px 10px rgb(121, 160, 218);
+            color: rgb(13, 19, 19);
+            background-color:rgb(218, 231, 239);
+            width: 150px;
+            font-size: x-large;
+            border-radius: 10px;
+            border:2px solid rgb(13, 65, 142);
+            padding:10px;
+            text-align: center;
+            
+        }
+    </style>
 </head>
 <body>
-    <h3>Audio Video</h3>
-    <audio controls src="audio/inside-you-162760.mp3"></audio>
+    <center><h1 class="style2">Audio Video</h1></center>
+    <div>
+        <p class="style1"> Audio </p>
+        <audio controls src="../audio/inside-you-162760.mp3"></audio>
+    </div> <br>
+    <div>
+        <p class="style1"> 
+            Video
+        </p>
+        <video width="400px" controls src="../audio/192357 (720p).mp4"></video>
+    </div>
+    <div>
+        <p style="width: 210px;" class="style1">Video from youtube</p>
+        <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/-2LtZRi6Q0s?si=SCBsCKoXkzHJ4GZB" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen></iframe>
+    </div>
 </body>
 </html>
